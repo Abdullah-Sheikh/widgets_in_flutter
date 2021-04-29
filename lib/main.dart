@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_in_flutter/clock.dart';
 import 'mywidget.dart';
+import 'clock.dart';
 
 void main() {
   runApp(new MaterialApp(
@@ -23,8 +25,8 @@ class _State extends State<MyApp> {
         padding: new EdgeInsets.all(32.0),
         child: new Column(
           children: <Widget>[
-            new Text('Abdullah Sheikh'),
-            new MyWidget(),
+            new Text('Time is '),
+            new Clock(),
           ],
         ),
       ),
