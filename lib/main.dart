@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_in_flutter/clock.dart';
+import 'TimeCounter.dart';
 import 'mywidget.dart';
 import 'clock.dart';
 
@@ -25,8 +26,10 @@ class _State extends State<MyApp> {
         padding: new EdgeInsets.all(32.0),
         child: new Column(
           children: <Widget>[
-            new Text('Time is '),
-            new Clock(),
+            new Text('My Stop Watch'),
+            new TimeCounter()
+            //new Text('Time is '),
+            //new Clock(),
           ],
         ),
       ),
